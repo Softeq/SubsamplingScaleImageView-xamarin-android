@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsamplingScaleImageView", "SubsamplingScaleImageView\SubsamplingScaleImageView.csproj", "{39E736A4-BB2E-4CD6-AFE4-49641C0FA1F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsamplingScaleImageView.Sample", "SubsamplingScaleImageView.Sample\SubsamplingScaleImageView.Sample.csproj", "{31A62D02-13B7-47B7-9C6E-08BA7AB3EFF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39E736A4-BB2E-4CD6-AFE4-49641C0FA1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E736A4-BB2E-4CD6-AFE4-49641C0FA1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E736A4-BB2E-4CD6-AFE4-49641C0FA1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E736A4-BB2E-4CD6-AFE4-49641C0FA1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A62D02-13B7-47B7-9C6E-08BA7AB3EFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A62D02-13B7-47B7-9C6E-08BA7AB3EFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A62D02-13B7-47B7-9C6E-08BA7AB3EFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A62D02-13B7-47B7-9C6E-08BA7AB3EFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
