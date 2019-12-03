@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsamplingScaleImageView", "SubsamplingScaleImageView\SubsamplingScaleImageView.csproj", "{39E736A4-BB2E-4CD6-AFE4-49641C0FA1F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsamplingScaleImageViewBinding", "src\SubsamplingScaleImageViewBinding.csproj", "{39E736A4-BB2E-4CD6-AFE4-49641C0FA1F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsamplingScaleImageView.Sample", "SubsamplingScaleImageView.Sample\SubsamplingScaleImageView.Sample.csproj", "{31A62D02-13B7-47B7-9C6E-08BA7AB3EFF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsamplingScaleImageViewBinding.Sample", "sample\SubsamplingScaleImageViewBinding.Sample.csproj", "{31A62D02-13B7-47B7-9C6E-08BA7AB3EFF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
