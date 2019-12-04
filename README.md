@@ -18,6 +18,31 @@ Install-Package SubsamplingScaleImageViewBinding
 
 The minimum SDK is now 14.
 
+## Usage
+
+**1)** Add the view to your layout XML.
+
+```xml
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+```
+
+**2)** Now, in your fragment or activity, set the image resource, asset name or file path.
+
+```cs
+var imageView = view.FindViewById<SubsamplingScaleImageView>(Resource.Id.imageView);
+
+imageView.SetImage(ImageSource.ForResource(Resource.Drawable.swissroad));
+```
+
 ## About
 
 This project is maintained by Softeq Development Corp.
