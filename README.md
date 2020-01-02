@@ -43,6 +43,36 @@ var imageView = view.FindViewById<SubsamplingScaleImageView>(Resource.Id.imageVi
 imageView.SetImage(ImageSource.ForResource(Resource.Drawable.swissroad));
 ```
 
+## Integration
+
+### FFImageLoading
+
+Use FFImageLoading [custom ViewTarget declaration](https://github.com/luberda-molinet/FFImageLoading/wiki/Custom-ViewTarget):
+
+```cs
+public class SubsamplingScaleImageViewTarget : ViewTarget<SubsamplingScaleImageView>
+{
+    public SubsamplingScaleImageViewTarget(SubsamplingScaleImageView imageView)
+        : base(imageView)
+    {
+    }
+
+    public override void Set(IImageLoaderTask task, SelfDisposingBitmapDrawable image,
+        bool animated)
+    {
+        var source = ImageSource.ForBitmap(image.Bitmap);
+        Control.SetImage(source);
+    }
+}
+```
+
+```cs
+var target = new SubsamplingScaleImageViewTarget(_imageView);
+
+ImageService.Instance.LoadUrl("image-url").IntoAsync(target);
+```
+
+
 ## About
 
 This project is maintained by Softeq Development Corp.
