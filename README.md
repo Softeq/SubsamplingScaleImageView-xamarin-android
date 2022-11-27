@@ -1,5 +1,7 @@
 # Subsampling Scale Image View
 
+[![Build Status](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_apis/build/status/SubsamplingScaleImageView%20Android%20Library/SubsamplingScaleImageView-dev?branchName=master)](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_build/latest?definitionId=425&branchName=master) [![NuGet Badge](https://buildstats.info/nuget/SubsamplingScaleImageViewBinding)](https://www.nuget.org/packages/SubsamplingScaleImageViewBinding/)
+
 Xamarin binding library for [SubsamplingScaleImageView](https://github.com/davemorrissey/subsampling-scale-image-view) Android library.
 
 ---
@@ -75,7 +77,7 @@ ImageService.Instance.LoadUrl("image-url").IntoAsync(target);
 
 ## About
 
-This project is maintained by Softeq Development Corp.
+This project is maintained by [Softeq Development Corp.](https://www.softeq.com/)
 
 We specialize in developing mobile applications using Xamarin and native technology stack.
 
